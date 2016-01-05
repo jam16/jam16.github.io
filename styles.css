@@ -19,11 +19,18 @@ html, body {
 #header {
   background: #131313;
   width: 100%;
-  padding: 40% 0 8% 0;
+  padding: 9% 0 8% 0;
+}
+
+#signature {
+	display: block;
+  margin: auto;
+  width: 98%;
 }
 
 #centered_t {
   margin: 0 auto;
+  margin-top: -5%;
 }
 
 #centered_t img {
