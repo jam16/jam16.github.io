@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8"/>
+  <title>&#9415;&#9418;&#9399;&#9406;&#9421; &#124; Cube Solver</title>
+  <meta name="description" content="Rubix Rubik's Cube Solver by Jason Mahr"/>
+  <meta name="keywords" content="Rubix Solver Solves Rubik's Cubes Jason Mahr"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="stylesheet" href="rubix_styles.css">
+  <script src="rubix_script.js"></script>
+</head>
+<body>
+  <div id="center_div">
+    <div id="header">
+      <h2>Welcome to Rubix</h2>
+      <h3 id="heading">Rubix evolves Rubik&rsquo;s Cube solutions.</h3>
+    </div>
+    <div id="body">
+      <p id="instructions">It improves on a
+        <a href="http://goo.gl/SPmfDv" target="_blank">published</a> evolutionary
+        Thistlethwaite algorithm through innovations including geometric
+        selection, shared prepended linked-list move histories and an expanded
+        three-part final phase.<br><br>
+        Rubix solves in 3.8 seconds versus 340 without sacrificing on solution
+        length (49.9 moves versus 50.3). Rubix&rsquo;s averages are from 10,000
+        runs in Safari 9.0.0 on a mid-2013 Macbook Air (i7, 8 gb, OS X 10.11).
+      </p>
+      <span id="action"></span>
+      <span id="next"></span>
+      <p id="page1_page2_logo">
+        <img src="rubix_logo.gif" alt="&#9415;&#9418;&#9399;&#9406;&#9421;">
+        <a href="http://goo.gl/zkg4N7" target="_blank">Image</a>
+        <a href="http://goo.gl/syjfr3" target="_blank">Sources</a>
+      </p>
+      <p id="page1_page4_next">
+        Click or tap Next to solve your cube in 3 easy steps.
+        <br><br><input type="button" onclick="select_colors()" value="Next"/>
+      </p>
+    </div>
+    <br>
+    <div id="footer">
+      <p>
+        Created with &#9825; by Jason Mahr<br>
+        Found a bug or have a comment?
+        <a href="mailto:jason.a.mahr@gmail.com?subject=Rubix">Email me</a>!
+      </p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+html, body {
+  background-color: #ECECEC;
+  font-family: "ff-tisa-web-pro", Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #131313;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#center_div {
+  max-width: 33.333333333333%;
+  margin: auto;
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  background: #131313;
+  width: 100%;
+  padding: 40% 0 8% 0;
+}
+
+#centered_t {
+  margin: 0 auto;
+}
+
+#centered_t img {
+  height: 90px;
+  width: 90px;
+}
+
+#centered_t a {
+  color: #ECECEC;
+  text-decoration: none;
+}
+
+#centered_t a:hover {
+  text-decoration: underline;
+}
+
+.centered-text {
+  text-align: center;
+  color: #ECECEC;
+}
+
+#description {
+  text-align: center;
+}

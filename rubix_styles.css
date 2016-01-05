@@ -1,0 +1,168 @@
+html, body {
+  background-color: #ECECEC;
+  background: repeating-linear-gradient(
+    to right,
+    #EFEFEF,
+    #EFEFEF 126px,
+    #E9E9E9 126px,
+    #E9E9E9 252px
+  );
+  font-family: "ff-tisa-web-pro", Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #191919;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#center_div {
+  max-width: 517px;
+  margin: auto;
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  background: #BCBCBC;
+  width: 100%;
+  padding: 10px;
+}
+
+#body {
+  padding: 0 10px 4.8em;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.8em;
+  background: #BCBCBC;
+  padding: 0 10px;
+}
+
+#page1_page2_logo {
+  text-align: right;
+  font-size: 8px;
+}
+
+#page1_page2_logo img {
+  display: block;
+  margin: auto;
+  height: 190px;
+  width: 190px;
+}
+
+#page1_page2_logo a {
+  color: #999;
+}
+
+#page1_page4_next {
+   display: inline;
+}
+
+.r { background-color: #F7CAC9; }
+.p { background-color: #F7786B; }
+.s { background-color: #91A8D0; }
+.b { background-color: #034F84; }
+.c { background-color: #FAE03C; }
+.t { background-color: #98DDDE; }
+.l { background-color: #9896A4; }
+.f { background-color: #DD4132; }
+.i { background-color: #B18F6A; }
+.g { background-color: #79C753; }
+
+.r, .p, .s, .b, .c, .t, .l, .f, .i, .g {
+  border: solid 2px white;
+  text-align: center;
+  overflow: hidden;
+  height: 31px;
+  width: 31px;
+  color: #333;
+}
+
+.r:hover, .p:hover, .s:hover, .b:hover, .c:hover,
+.t:hover, .l:hover, .f:hover, .i:hover, .g:hover {
+  cursor: default;
+}
+
+.inputting:hover {
+  border: solid 2px black;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.center {
+  font-weight: 900;
+  color: black;
+}
+
+.inputting_center:hover {
+  border: solid 2px red;
+  background-color: #ECECEC;
+  cursor: not-allowed;
+}
+
+.centered_t {
+  margin: 0 auto;
+}
+
+.panel_item {
+  border: solid 2px white;
+  cursor: default;
+}
+
+#panel_color_id_0, #panel_color_id_1, #panel_color_id_2,
+#panel_color_id_3, #panel_color_id_4, #panel_color_id_5 {
+  font-size: 10px;
+  height: 14px;
+  width: 14px;
+}
+
+.selected_side {
+  border: solid 2px black;
+}
+
+#panel_side_txt {
+  width: 70px;
+}
+
+#solution_table {
+  width: 100%;
+}
+
+#solution_moves, #notation_diagram {
+  border: solid 2px white;
+  cursor: crosshair;
+}
+
+.move {
+  color: white;
+}
+
+.move:hover {
+  color: black;
+}
+
+#notation_diagram {
+  text-align: center;
+  overflow: hidden;
+  height: 79px;
+  width: 79px;
+  color: white;
+}
+
+#notation_diagram img {
+  height: 75px;
+  width: 75px;
+}
+
+#notation_source {
+  text-align: center;
+  font-size: 8px;
+}
+
+#notation_source a {
+  color: #AAA;
+}
